@@ -13,6 +13,18 @@
    error: null
  }
 */
+const initialState = {
+  smurfs: [],
+  loading: '',
+  messege: ''
+}
+
+export default (state = initialState, action) => {
+  switch( action.type) {
+    default:
+      return state;
+  }
+};
 
 /*
   You'll only need one smurf reducer for this project.
